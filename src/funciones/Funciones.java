@@ -153,6 +153,8 @@ public class Funciones {
 		return retorno;
 	}
 
+	// trae la fecha
+	
 	public static String traerFechaCorta(LocalDate fecha) {
 		return ("año = " + Funciones.traerAnio(fecha) + ", mes = " + (Funciones.traerMes(fecha)) + ", dia = "
 				+ Funciones.traerDia(fecha));
